@@ -26,7 +26,7 @@ package list;
  * Т. е. запись AbstractList list = new AbstractList(); работать не будет
  * Корректная запись AbstractList list = new ArrayList();  - создаем экземпляр класса ArrayList, а не AbstractList.
  */
-public abstract class AbstractList extends List {
+public abstract class AbstractList implements List {
     /**
      * Количество заполненных элементов списка
      * <p>
